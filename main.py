@@ -1,6 +1,7 @@
-ls = ['p', 'p', 'y', 'y', 123]
-print(ls)
-s = set(ls)
-print(s)
-ls = list(s)
-print(ls)
+d={'python':'hello','nihao':'abc'}
+a=d.items()
+b=d.keys()
+c=d.values()
+print(a)
+print(b)
+print(c)
